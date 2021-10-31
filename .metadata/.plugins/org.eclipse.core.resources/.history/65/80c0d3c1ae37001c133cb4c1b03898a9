@@ -1,0 +1,5 @@
+package com.rohit.springcloud.security;
+
+public interface SecurityService {
+
+}

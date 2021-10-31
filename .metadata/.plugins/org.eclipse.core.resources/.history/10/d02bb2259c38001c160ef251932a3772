@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/mydb
+spring.datasource.username=root
+spring.datasource.password=test1234
+
+server.port=9091
+
+publicKey=-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiuXKSiC7m8gt80oDVYzn\n6Kc4/jxHPfbYOMmeIqKET4h4F3UFQtSkJGxf3YR8CoBuFkvxMnrovZAGhXjvll3m\nt1v8a+k33pvr/g2urqF5GWAdQKHvIMw5p2pDi1TF4bG6uhOpq3e8SGb8gtK6lN54\njId4bdET34/nujZ5XewDbPvxXs68Or2e2v4j7AptnLhxfkrU36AkxTPPLRrved24\nvxyQBegBdzvrhF8d+Yq35Szq1foVgucWBR9sF3JLxdlLrDZZDBq8JOkKb/mTViYJ\nKpxitFTu7yEs7LLuBH8297HOvTGGj/OyjJhKDf7Baqnq4zIr4RtaoYJq9wunCysg\nGQIDAQAB\n-----END PUBLIC KEY-----

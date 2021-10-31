@@ -1,0 +1,11 @@
+package com.rohit.springcloud.security.config;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.nimbusds.oauth2.sdk.as.AuthorizationServerConfigurationRequest;
+
+@Configuration
+@EnableA
+public class AuthorizationServerConfig extends AuthorizationServerConfigurationRequest {
+
+}

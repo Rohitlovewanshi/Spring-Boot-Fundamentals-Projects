@@ -1,0 +1,5 @@
+package com.rohit.springcloud.model;
+
+public class User {
+
+}

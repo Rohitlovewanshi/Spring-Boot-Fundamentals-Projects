@@ -1,0 +1,11 @@
+package com.rohit.springcloud.security;
+
+public class SecurityServiceImpl implements SecurityService {
+
+	@Override
+	public boolean login(String userName, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

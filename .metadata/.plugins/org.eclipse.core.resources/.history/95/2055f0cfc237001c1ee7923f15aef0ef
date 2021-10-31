@@ -1,0 +1,7 @@
+package com.rohit.springcloud.security.config;
+
+import com.nimbusds.oauth2.sdk.as.AuthorizationServerConfigurationRequest;
+
+public class AuthorizationServerConfig extends AuthorizationServerConfigurationRequest {
+
+}

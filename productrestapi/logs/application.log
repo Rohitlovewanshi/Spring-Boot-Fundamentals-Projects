@@ -1,0 +1,38 @@
+2021-09-16 13:50:54.265  INFO 2378 --- [main] c.r.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 11.0.10 on MacBook-Pro.local with PID 2378 (/Users/rohit/Spring-Boot-Fundamentals/productrestapi/target/classes started by rohit in /Users/rohit/Spring-Boot-Fundamentals/productrestapi)
+2021-09-16 13:50:54.267  INFO 2378 --- [main] c.r.springweb.ProductrestapiApplication  : No active profile set, falling back to default profiles: default
+2021-09-16 13:50:54.962  INFO 2378 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-16 13:50:55.003  INFO 2378 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2021-09-16 13:50:55.394  INFO 2378 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2268ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-09-16 13:50:55.565  INFO 2378 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-09-16 13:50:55.568  INFO 2378 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.10+9
+2021-09-16 13:50:55.593  INFO 2378 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-09-16 13:50:55.594  INFO 2378 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2021-09-16 13:50:55.658  INFO 2378 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-09-16 13:50:55.659  INFO 2378 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-09-16 13:50:55.659  INFO 2378 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2021-09-16 13:50:55.664  INFO 2378 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2262d6d5{application,/productapi,[file:///private/var/folders/hd/lw3c499s2dn33td4k4vgq_f00000gn/T/jetty-docbase.8080.5707731998508575653/],AVAILABLE}
+2021-09-16 13:50:55.664  INFO 2378 --- [main] org.eclipse.jetty.server.Server          : Started @2538ms
+2021-09-16 13:50:55.778  INFO 2378 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-16 13:50:56.077  INFO 2378 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-16 13:50:56.131  INFO 2378 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-16 13:50:56.168  INFO 2378 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-16 13:50:56.293  INFO 2378 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-16 13:50:56.395  INFO 2378 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-16 13:50:56.728  INFO 2378 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-16 13:50:56.733  INFO 2378 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-16 13:50:57.099  WARN 2378 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-16 13:50:57.377  INFO 2378 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-16 13:50:57.377  INFO 2378 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-16 13:50:57.378  INFO 2378 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-16 13:50:57.397  INFO 2378 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@3c79088e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-09-16 13:50:57.397  INFO 2378 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-09-16 13:50:57.413  INFO 2378 --- [main] c.r.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 3.573 seconds (JVM running for 4.287)
+2021-09-16 13:51:04.146  INFO 2378 --- [qtp1395725953-30] c.r.s.controllers.ProductRestController  : Finding product by ID : 1
+2021-09-16 13:56:22.094  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-16 13:56:22.117  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@3c79088e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-09-16 13:56:22.117  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2021-09-16 13:56:22.123  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-16 13:56:22.124  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@2262d6d5{application,/productapi,[file:///private/var/folders/hd/lw3c499s2dn33td4k4vgq_f00000gn/T/jetty-docbase.8080.5707731998508575653/],STOPPED}
+2021-09-16 13:56:22.132  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-16 13:56:22.137  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-16 13:56:22.156  INFO 2378 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

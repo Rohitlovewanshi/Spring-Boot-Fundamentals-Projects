@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.rohit.core.services.PaymentServiceImpl.dao&apos; in &apos;com.rohit.core.services.PaymentServiceImpl&apos;&#x0A;- Original project: &apos;core&apos;&#x0A;- Original element: &apos;com.rohit.core.services.PaymentServiceImpl.dao&apos;&#x0A;- Getter method name: &apos;getDao&apos;&#x0A;- Setter method name: &apos;setDao&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;dao&apos;" flags="589830" getter="getDao" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rohit.core.services{PaymentServiceImpl.java[PaymentServiceImpl^dao" insertion="-1" setter="setDao" stamp="1631769650649" version="1.0" visibility="1"/>
+</session>

@@ -1,0 +1,5 @@
+package com.rohit.springcloud.controller;
+
+public class CouponController {
+
+}

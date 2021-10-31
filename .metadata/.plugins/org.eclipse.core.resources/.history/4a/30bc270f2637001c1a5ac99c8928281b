@@ -1,0 +1,13 @@
+package com.rohit.spring.security;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class FirstsecuredappApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
